@@ -1,0 +1,27 @@
+### Get All Users
+GET http://localhost:8089/api/user/all?limit=10
+
+### Get User By ID
+GET http://localhost:8089/api/user/20
+
+#### Create User
+ POST http://localhost:8089/api/user/create
+Content-Type: application/json
+
+{
+    "username": "Pepito",
+    "latitude": 10.5097418,
+    "longitude": -66.9292068
+}
+
+### Delete User By ID
+DELETE http://localhost:8089/api/user/20
+
+
+### Update User By ID
+PATCH http://localhost:8089/api/user/15
+Content-Type: application/json
+
+{
+    "username": "Fransisco Ramirez"
+}
