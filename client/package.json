@@ -20,7 +20,7 @@
     "@snowpack/web-test-runner-plugin": "^0.2.2",
     "@testing-library/react": "^12.1.5",
     "@web/test-runner": "^0.17.1",
-    "chai": "^4.3.8",
+    "chai": "^4.3.10",
     "prettier": "^3.0.3",
     "snowpack": "~3.3.7"
   }
